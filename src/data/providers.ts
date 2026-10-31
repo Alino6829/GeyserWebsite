@@ -1077,5 +1077,35 @@ export const providersData: HostingProvider[] = [
         links: { support: 'https://zap-hosting.com/en/customer/support/', discord: 'https://discord.gg/zaphosting' },
         install: customInstallLocations.plugin_list,
         config: { udp: ports.newPort, confirmed: false }
+    },
+    
+    
+    {
+    name: 'Eternal Hosting', // Our Premium Branch of "Eternal"
+    url: 'https://eternalhosting.cloud',
+    updated: '2026-10-31',
+    links: { 
+        discord: 'https://discord.gg/FVWavjF4P5',
+    },
+    install: customInstallLocations.plugin_list,
+    config: { udp: ports.assign }
+    },
+    {
+    name: 'Eternal Zero', // Our Free Branch of "Eternal"
+    url: 'https://eternalzero.cloud',
+    updated: '2026-10-31',
+    links: { 
+        discord: 'https://discord.gg/FVWavjF4P5',
+    },
+    install: customInstallLocations.plugin_list,
+    config: { udp: ports.assign }
+    },
+    {
+    name: 'Severoo', // Our Free Branch seperate from the Branding of "Eternal"
+    url: 'https://severoo.com/?v=2',
+    updated: '2026-10-31',
+    install: customInstallLocations.plugin_list,
+    config: { udp: ports.assign }
     }
+    
 ]
